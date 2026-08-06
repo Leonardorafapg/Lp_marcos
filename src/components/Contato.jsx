@@ -28,7 +28,7 @@ export default function Contato() {
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5598970187830"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center rounded-lg bg-amber-400 hover:bg-amber-300 transition-colors text-slate-900 font-semibold px-8 py-4"
