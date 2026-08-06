@@ -44,7 +44,7 @@ export default function Navbar() {
               solid ? 'text-slate-500 border-slate-300' : 'text-slate-200 border-white/40'
             }`}
           >
-            Advocacia<br />Previdenciária
+Advocacia<br />Previdenciária<br />e Trabalhista
           </span>
         </a>
 

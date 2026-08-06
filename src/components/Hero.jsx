@@ -14,13 +14,15 @@ export default function Hero() {
         <div className="max-w-2xl">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
             Especialista em{' '}
-            <span className="italic font-serif text-amber-300">Direito Previdenciário</span>
+            <span className="italic font-serif text-amber-300">Direito Previdenciário</span>{' '}
+            e <span className="italic font-serif text-amber-300">Trabalhista</span>
           </h1>
 
           <p className="mt-6 text-lg text-slate-200 max-w-xl">
-            Atuação em aposentadorias, revisões de benefícios, auxílios por
-            incapacidade e demais processos junto ao INSS, com orientação clara
-            sobre as etapas, os documentos e os prazos aplicáveis a cada caso.
+            Atuação em aposentadorias, revisões de benefícios e processos junto
+            ao INSS, além de causas trabalhistas como rescisões, verbas não
+            pagas e reconhecimento de vínculo empregatício, com orientação
+            clara em cada etapa do caso.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4">

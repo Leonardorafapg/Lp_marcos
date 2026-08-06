@@ -1,4 +1,4 @@
-import advogadoImg from '../assets/advogado.png'
+import sobreImg from '../assets/marcus-sobre.jpeg'
 
 export default function Sobre() {
   return (
@@ -7,7 +7,7 @@ export default function Sobre() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="rounded-3xl overflow-hidden shadow-xl">
             <img
-              src={advogadoImg}
+              src={sobreImg}
               alt="Marcus Mota"
               className="w-full h-full object-cover"
             />
@@ -21,16 +21,17 @@ export default function Sobre() {
               Marcus <span className="italic text-amber-500">Mota</span>
             </h2>
             <p className="mt-4 text-slate-600 leading-relaxed">
-              Advogado especializado em Direito Previdenciário, com atuação
-              dedicada a aposentadorias, revisões de benefícios, auxílios por
-              incapacidade e demais processos junto ao INSS. Atendimento
-              próximo e transparente, com linguagem acessível para orientar
-              você em cada etapa do processo.
+              Advogado especializado em Direito Previdenciário e Trabalhista,
+              com atuação dedicada a aposentadorias, revisões de benefícios e
+              processos junto ao INSS, além de causas trabalhistas como
+              rescisões, verbas não pagas e reconhecimento de vínculo
+              empregatício. Atendimento próximo e transparente, com linguagem
+              acessível para orientar você em cada etapa do processo.
             </p>
             <p className="mt-4 text-slate-600 leading-relaxed">
               Ao longo da carreira, construiu uma abordagem que une segurança
               jurídica e cuidado humano, buscando sempre a solução mais rápida
-              e vantajosa para garantir o benefício a que você tem direito.
+              e vantajosa para garantir os direitos a que você tem direito.
             </p>
 
             <a

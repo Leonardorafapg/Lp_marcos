@@ -1,33 +1,33 @@
 const areas = [
   {
-    title: 'Aposentadoria por Idade',
-    desc: 'Análise do tempo de contribuição e orientação sobre o melhor momento e a melhor regra para requerer o benefício.',
+    title: 'Aposentadoria por Idade e Tempo de Contribuição',
+    desc: 'Análise do tempo contributivo e orientação sobre a regra mais vantajosa para requerer o benefício.',
     img: 'https://images.unsplash.com/photo-1447069387593-a5de0862481e?q=80&w=800&auto=format&fit=crop',
   },
   {
-    title: 'Aposentadoria por Tempo de Contribuição',
-    desc: 'Cálculo do tempo contributivo, inclusão de períodos especiais e definição da regra de transição mais vantajosa.',
-    img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=800&auto=format&fit=crop',
-  },
-  {
-    title: 'Aposentadoria por Invalidez',
-    desc: 'Atuação em casos de incapacidade permanente para o trabalho, incluindo perícias e recursos administrativos.',
+    title: 'Aposentadoria por Invalidez e Auxílios',
+    desc: 'Atuação em casos de incapacidade para o trabalho, incluindo perícias e recursos administrativos junto ao INSS.',
     img: 'https://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=800&auto=format&fit=crop',
   },
   {
-    title: 'Auxílio por Incapacidade',
-    desc: 'Orientação e acompanhamento em pedidos de auxílio-doença e demais benefícios por incapacidade temporária.',
-    img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800&auto=format&fit=crop',
-  },
-  {
-    title: 'Revisão de Benefícios',
-    desc: 'Análise de benefícios já concedidos para identificar valores pagos a menor e possibilidade de revisão junto ao INSS.',
+    title: 'Revisão de Benefícios, Pensão e BPC/LOAS',
+    desc: 'Análise de benefícios já concedidos e orientação a dependentes e pessoas com deficiência sobre seus direitos.',
     img: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800&auto=format&fit=crop',
   },
   {
-    title: 'Pensão por Morte e BPC/LOAS',
-    desc: 'Orientação a dependentes na solicitação de pensão por morte e a idosos e pessoas com deficiência no BPC/LOAS.',
-    img: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop',
+    title: 'Rescisão e Verbas Trabalhistas',
+    desc: 'Cálculo e cobrança de verbas rescisórias não pagas, horas extras, férias e demais direitos trabalhistas.',
+    img: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    title: 'Reconhecimento de Vínculo Empregatício',
+    desc: 'Atuação em casos de trabalho informal ou "pejotização" para garantir o reconhecimento dos direitos trabalhistas.',
+    img: 'https://images.unsplash.com/photo-1521791055366-0d553872125f?q=80&w=800&auto=format&fit=crop',
+  },
+  {
+    title: 'Assédio, Acidente de Trabalho e Rescisão Indireta',
+    desc: 'Defesa em casos de assédio moral, acidentes de trabalho e situações que justificam a rescisão indireta do contrato.',
+    img: 'https://images.unsplash.com/photo-1521791136064-7986c2920217?q=80&w=800&auto=format&fit=crop',
   },
 ]
 
@@ -40,11 +40,12 @@ export default function AreasAtuacao() {
             Áreas de atuação
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 font-serif">
-            Direito <span className="italic text-amber-500">Previdenciário</span>
+            Direito <span className="italic text-amber-500">Previdenciário</span> e{' '}
+            <span className="italic text-amber-500">Trabalhista</span>
           </h2>
           <p className="mt-4 text-slate-600 text-lg">
-            Acompanhamento completo do requerimento, da análise do benefício até
-            eventuais recursos junto ao INSS.
+            Acompanhamento completo, do requerimento junto ao INSS às causas
+            trabalhistas, com atenção a cada detalhe do seu caso.
           </p>
         </div>
 

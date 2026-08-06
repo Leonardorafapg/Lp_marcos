@@ -17,6 +17,10 @@ const faqs = [
     q: 'Quais documentos preciso reunir?',
     a: 'Em geral: documentos pessoais, carteira de trabalho, extrato do CNIS e comprovantes de contribuição. Na conversa inicial te passo a lista completa conforme o benefício buscado.',
   },
+  {
+    q: 'Fui demitido e não recebi todas as verbas, o que fazer?',
+    a: 'É possível cobrar administrativamente ou na Justiça do Trabalho valores como aviso prévio, férias, 13º e FGTS não pagos corretamente. Faço uma análise do seu caso para verificar as diferenças devidas.',
+  },
 ]
 
 export default function Duvidas() {
