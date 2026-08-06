@@ -8,7 +8,7 @@ export default function Sobre() {
           <div className="rounded-3xl overflow-hidden shadow-xl">
             <img
               src={advogadoImg}
-              alt="Marcus Ramos"
+              alt="Marcus Mota"
               className="w-full h-full object-cover"
             />
           </div>
@@ -18,19 +18,19 @@ export default function Sobre() {
               Sobre
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 font-serif">
-              Marcus <span className="italic text-amber-500">Ramos</span>
+              Marcus <span className="italic text-amber-500">Mota</span>
             </h2>
             <p className="mt-4 text-slate-600 leading-relaxed">
-              Advogado especializado em Direito das Sucessões, com atuação
-              dedicada a processos de inventário, partilha de bens e
-              regularização de imóveis. Atendimento próximo e transparente, com
-              linguagem acessível para orientar você e sua família em cada etapa
-              do processo.
+              Advogado especializado em Direito Previdenciário, com atuação
+              dedicada a aposentadorias, revisões de benefícios, auxílios por
+              incapacidade e demais processos junto ao INSS. Atendimento
+              próximo e transparente, com linguagem acessível para orientar
+              você em cada etapa do processo.
             </p>
             <p className="mt-4 text-slate-600 leading-relaxed">
               Ao longo da carreira, construiu uma abordagem que une segurança
-              jurídica e cuidado humano, buscando sempre a solução mais rápida e
-              menos desgastante para os herdeiros.
+              jurídica e cuidado humano, buscando sempre a solução mais rápida
+              e vantajosa para garantir o benefício a que você tem direito.
             </p>
 
             <a

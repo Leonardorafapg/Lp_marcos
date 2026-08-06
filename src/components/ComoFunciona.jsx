@@ -2,22 +2,22 @@ const passos = [
   {
     numero: '01',
     title: 'Conversa inicial',
-    desc: 'Entendemos sua situação, os bens envolvidos e a relação entre os herdeiros para definir o melhor caminho.',
+    desc: 'Entendemos seu histórico contributivo e sua situação para identificar o melhor benefício a buscar.',
   },
   {
     numero: '02',
-    title: 'Reunião de documentos',
-    desc: 'Orientamos exatamente quais certidões e documentos são necessários para dar entrada no processo.',
+    title: 'Análise do caso',
+    desc: 'Levantamento do extrato previdenciário (CNIS) e dos documentos necessários para o requerimento ou revisão.',
   },
   {
     numero: '03',
     title: 'Condução do processo',
-    desc: 'Cuidamos de toda a parte jurídica e burocrática, em cartório ou na justiça, mantendo você informado a cada etapa.',
+    desc: 'Cuidamos de todo o requerimento junto ao INSS ou do processo judicial, mantendo você informado a cada etapa.',
   },
   {
     numero: '04',
-    title: 'Partilha concluída',
-    desc: 'Formalização da partilha e regularização dos bens em nome dos herdeiros.',
+    title: 'Benefício concedido',
+    desc: 'Acompanhamento até a concessão do benefício, com orientação sobre os próximos passos.',
   },
 ]
 

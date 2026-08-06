@@ -36,7 +36,7 @@ export default function Navbar() {
           >
             MARCUS{' '}
             <span className={solid ? 'font-bold text-blue-800' : 'font-bold text-amber-300'}>
-              RAMOS
+              MOTA
             </span>
           </span>
           <span
@@ -44,7 +44,7 @@ export default function Navbar() {
               solid ? 'text-slate-500 border-slate-300' : 'text-slate-200 border-white/40'
             }`}
           >
-            Consultoria<br />e Assessoria<br />Jurídica
+            Advocacia<br />Previdenciária
           </span>
         </a>
 

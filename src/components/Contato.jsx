@@ -13,7 +13,7 @@ export default function Contato() {
             </h2>
             <p className="mt-4 text-slate-300">
               Agende um atendimento inicial de 20 minutos, online, e receba
-              orientação sobre os próximos passos do seu inventário. Fique
+              orientação sobre o seu benefício previdenciário. Fique
               tranquilo(a): seus dados não são compartilhados com ninguém.
             </p>
 
@@ -63,7 +63,7 @@ export default function Contato() {
             </ol>
 
             <a
-              href="mailto:contato@marcusramos.adv.br"
+              href="mailto:contato@marcusmota.adv.br"
               className="mt-8 inline-flex items-center justify-center rounded-lg border border-slate-300 hover:bg-slate-50 transition-colors text-slate-800 font-semibold px-8 py-4"
             >
               Prefiro enviar um e-mail

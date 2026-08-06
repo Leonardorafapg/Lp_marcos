@@ -2,20 +2,20 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    q: 'Qual a diferença entre inventário extrajudicial e judicial?',
-    a: 'O inventário extrajudicial é feito em cartório, é mais rápido e exige que todos os herdeiros sejam maiores, capazes e estejam de acordo. O judicial tramita na justiça e é necessário quando há testamento, herdeiros menores/incapazes ou divergência entre as partes.',
+    q: 'Com quantos anos posso me aposentar?',
+    a: 'Depende da regra aplicável ao seu caso (idade, tempo de contribuição ou regras de transição, para quem já contribuía antes da reforma de 2019). Na conversa inicial analiso seu histórico e indico a regra mais vantajosa.',
   },
   {
-    q: 'Quanto tempo demora um inventário?',
-    a: 'O extrajudicial costuma levar de 30 a 60 dias após reunidos todos os documentos. O judicial varia conforme a complexidade do caso e a vara responsável, podendo levar alguns meses.',
+    q: 'O INSS negou meu benefício, o que fazer?',
+    a: 'É possível entrar com recurso administrativo ou, dependendo do caso, ação judicial para reverter a negativa. Muitos indeferimentos ocorrem por falta de documentação ou análise incorreta do tempo de contribuição.',
   },
   {
-    q: 'Existe prazo legal para abrir o inventário?',
-    a: 'Sim, a lei prevê o prazo de até 2 meses após o falecimento para dar entrada no inventário, sob pena de multa. Mesmo perdido o prazo, o processo pode e deve ser realizado.',
+    q: 'Meu benefício pode estar sendo pago a menor?',
+    a: 'Sim, é comum benefícios serem concedidos com valores abaixo do devido. Faço uma análise gratuita do seu caso para verificar se há direito a revisão e diferenças a receber.',
   },
   {
     q: 'Quais documentos preciso reunir?',
-    a: 'Em geral: certidão de óbito, documentos pessoais do falecido e dos herdeiros, certidão de casamento, e documentos dos bens (imóveis, veículos, contas). Na conversa inicial te passo a lista completa para o seu caso.',
+    a: 'Em geral: documentos pessoais, carteira de trabalho, extrato do CNIS e comprovantes de contribuição. Na conversa inicial te passo a lista completa conforme o benefício buscado.',
   },
 ]
 
