@@ -1,4 +1,5 @@
 import advogadoImg from '../assets/advogado.png'
+import WhatsAppIcon, { WHATSAPP_URL } from './WhatsAppIcon'
 
 export default function Hero() {
   return (
@@ -27,9 +28,12 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
-              href="#contato"
-              className="inline-flex items-center justify-center rounded-lg bg-blue-800 hover:bg-blue-700 transition-colors text-white font-semibold px-8 py-4"
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-800 hover:bg-blue-700 transition-colors text-white font-semibold px-8 py-4"
             >
+              <WhatsAppIcon className="w-5 h-5" />
               Fale Comigo!
             </a>
             <a

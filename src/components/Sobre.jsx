@@ -1,4 +1,5 @@
 import sobreImg from '../assets/marcus-sobre.jpeg'
+import WhatsAppIcon, { WHATSAPP_URL } from './WhatsAppIcon'
 
 export default function Sobre() {
   return (
@@ -35,9 +36,12 @@ export default function Sobre() {
             </p>
 
             <a
-              href="#contato"
-              className="mt-8 inline-flex items-center justify-center rounded-lg bg-slate-900 hover:bg-slate-800 transition-colors text-white font-semibold px-8 py-4"
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 hover:bg-slate-800 transition-colors text-white font-semibold px-8 py-4"
             >
+              <WhatsAppIcon className="w-5 h-5" />
               Falar com o advogado
             </a>
           </div>

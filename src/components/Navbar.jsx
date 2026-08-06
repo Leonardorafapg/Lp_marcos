@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import WhatsAppIcon, { WHATSAPP_URL } from './WhatsAppIcon'
 
 const links = [
   { label: 'Áreas de Atuação', href: '#areas' },
@@ -66,13 +67,16 @@ Advocacia<br />Previdenciária<br />e Trabalhista
         </ul>
 
         <a
-          href="#contato"
-          className={`hidden lg:inline-flex items-center rounded-lg font-semibold px-6 py-3 transition-colors duration-300 ${
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noreferrer"
+          className={`hidden lg:inline-flex items-center gap-2 rounded-lg font-semibold px-6 py-3 transition-colors duration-300 ${
             solid
               ? 'bg-slate-900 text-white hover:bg-slate-800'
               : 'bg-white/10 text-white border border-white/40 hover:bg-white/20'
           }`}
         >
+          <WhatsAppIcon className="w-5 h-5" />
           Fale Comigo!
         </a>
 
@@ -104,10 +108,13 @@ Advocacia<br />Previdenciária<br />e Trabalhista
             ))}
           </ul>
           <a
-            href="#contato"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer"
             onClick={() => setOpen(false)}
-            className="mt-4 inline-flex w-full items-center justify-center rounded-lg bg-slate-900 text-white font-semibold px-6 py-3"
+            className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-slate-900 text-white font-semibold px-6 py-3"
           >
+            <WhatsAppIcon className="w-5 h-5" />
             Fale Comigo!
           </a>
         </div>

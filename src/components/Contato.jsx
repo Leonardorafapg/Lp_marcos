@@ -1,3 +1,5 @@
+import WhatsAppIcon, { WHATSAPP_URL } from './WhatsAppIcon'
+
 export default function Contato() {
   return (
     <section id="contato" className="bg-slate-900 py-20 sm:py-28">
@@ -28,11 +30,12 @@ export default function Contato() {
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/5598970187830"
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center justify-center rounded-lg bg-amber-400 hover:bg-amber-300 transition-colors text-slate-900 font-semibold px-8 py-4"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-400 hover:bg-amber-300 transition-colors text-slate-900 font-semibold px-8 py-4"
               >
+                <WhatsAppIcon className="w-5 h-5" />
                 Agendar pelo WhatsApp
               </a>
             </div>
