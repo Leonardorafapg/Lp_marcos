@@ -12,9 +12,19 @@ export default function Contato() {
               <span className="italic text-amber-300">o seu caso</span>
             </h2>
             <p className="mt-4 text-slate-300">
-              Fale diretamente comigo pelo WhatsApp e receba orientação sobre os
-              próximos passos do seu inventário.
+              Agende um atendimento inicial de 20 minutos, online, e receba
+              orientação sobre os próximos passos do seu inventário. Fique
+              tranquilo(a): seus dados não são compartilhados com ninguém.
             </p>
+
+            <div className="mt-6 space-y-2 text-slate-300 text-sm">
+              <p className="flex items-center gap-2">
+                <span>📞</span> Atendimento online de 20 minutos
+              </p>
+              <p className="flex items-center gap-2">
+                <span>📅</span> Escolha o dia e horário que preferir
+              </p>
+            </div>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
@@ -23,13 +33,7 @@ export default function Contato() {
                 rel="noreferrer"
                 className="inline-flex items-center justify-center rounded-lg bg-amber-400 hover:bg-amber-300 transition-colors text-slate-900 font-semibold px-8 py-4"
               >
-                Falar no WhatsApp
-              </a>
-              <a
-                href="mailto:contato@marcusramos.adv.br"
-                className="inline-flex items-center justify-center rounded-lg border border-white/30 hover:bg-white/10 transition-colors text-white font-semibold px-8 py-4"
-              >
-                Enviar e-mail
+                Agendar pelo WhatsApp
               </a>
             </div>
           </div>
@@ -39,39 +43,30 @@ export default function Contato() {
               Olá, <span className="italic font-serif text-amber-500">bem vindo(a)</span>!
             </h3>
             <p className="mt-2 text-slate-600">
-              Para agendar a sua consulta, basta seguir três passos simples:
+              É simples: chame no WhatsApp ao lado, me conte brevemente sobre o
+              caso e combinamos juntos o melhor dia e horário para conversar.
             </p>
 
-            <ol className="mt-4 space-y-2 text-slate-700 text-sm">
-              <li>1. Identifique e escolha o atendimento, o dia e o horário disponíveis;</li>
-              <li>2. Clique no botão "Agendar atendimento";</li>
-              <li>3. Preencha os dados e pronto. Nos veremos em breve!</li>
+            <ol className="mt-6 space-y-3 text-slate-700 text-sm">
+              <li className="flex gap-3">
+                <span className="font-bold text-amber-500">1.</span>
+                Chame no WhatsApp e conte um pouco sobre a sua situação.
+              </li>
+              <li className="flex gap-3">
+                <span className="font-bold text-amber-500">2.</span>
+                Combinamos juntos o dia e horário do atendimento.
+              </li>
+              <li className="flex gap-3">
+                <span className="font-bold text-amber-500">3.</span>
+                Nos falamos e você já sai com os próximos passos definidos.
+              </li>
             </ol>
 
-            <p className="mt-4 rounded-lg bg-slate-100 px-4 py-3 text-xs text-slate-500">
-              Obs: Fique tranquilo(a)! Não compartilho seus dados com ninguém.
-            </p>
-
-            <div className="mt-5 flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3">
-              <span className="text-lg">📞</span>
-              <span className="text-sm font-medium text-slate-800">
-                Atendimento Online (20 minutos)
-              </span>
-            </div>
-            <div className="mt-3 flex items-center gap-3 rounded-xl border border-slate-200 px-4 py-3">
-              <span className="text-lg">📅</span>
-              <span className="text-sm font-medium text-slate-800">
-                Datas e Horários Disponíveis
-              </span>
-            </div>
-
             <a
-              href="https://wa.me/5500000000000"
-              target="_blank"
-              rel="noreferrer"
-              className="mt-6 inline-flex items-center justify-center rounded-lg bg-slate-900 hover:bg-slate-800 transition-colors text-white font-semibold px-8 py-4"
+              href="mailto:contato@marcusramos.adv.br"
+              className="mt-8 inline-flex items-center justify-center rounded-lg border border-slate-300 hover:bg-slate-50 transition-colors text-slate-800 font-semibold px-8 py-4"
             >
-              Agendar atendimento!
+              Prefiro enviar um e-mail
             </a>
           </div>
         </div>
