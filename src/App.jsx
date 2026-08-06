@@ -4,7 +4,6 @@ import AreasAtuacao from './components/AreasAtuacao'
 import Sobre from './components/Sobre'
 import ComoFunciona from './components/ComoFunciona'
 import Duvidas from './components/Duvidas'
-import Localizacao from './components/Localizacao'
 import Contato from './components/Contato'
 import Footer from './components/Footer'
 
@@ -17,7 +16,6 @@ function App() {
       <Sobre />
       <ComoFunciona />
       <Duvidas />
-      <Localizacao />
       <Contato />
       <Footer />
     </div>
