@@ -27,7 +27,7 @@ const areas = [
   {
     title: 'Assédio, Acidente de Trabalho e Rescisão Indireta',
     desc: 'Defesa em casos de assédio moral, acidentes de trabalho e situações que justificam a rescisão indireta do contrato.',
-    img: 'https://images.unsplash.com/photo-1521791136064-7986c2920217?q=80&w=800&auto=format&fit=crop',
+    img: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=800&auto=format&fit=crop',
   },
 ]
 
