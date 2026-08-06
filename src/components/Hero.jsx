@@ -27,13 +27,13 @@ export default function Hero() {
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
               href="#contato"
-              className="inline-flex items-center justify-center rounded-full bg-blue-800 hover:bg-blue-700 transition-colors text-white font-semibold px-8 py-4"
+              className="inline-flex items-center justify-center rounded-lg bg-blue-800 hover:bg-blue-700 transition-colors text-white font-semibold px-8 py-4"
             >
               Fale Comigo!
             </a>
             <a
               href="#como-funciona"
-              className="inline-flex items-center justify-center rounded-full border border-white/40 hover:bg-white/10 transition-colors text-white font-semibold px-8 py-4"
+              className="inline-flex items-center justify-center rounded-lg border border-white/40 hover:bg-white/10 transition-colors text-white font-semibold px-8 py-4"
             >
               Como funciona
             </a>

@@ -18,13 +18,13 @@ export default function Contato() {
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center rounded-full bg-amber-400 hover:bg-amber-300 transition-colors text-slate-900 font-semibold px-8 py-4"
+            className="inline-flex items-center justify-center rounded-lg bg-amber-400 hover:bg-amber-300 transition-colors text-slate-900 font-semibold px-8 py-4"
           >
             Falar no WhatsApp
           </a>
           <a
             href="mailto:contato@marcusramos.adv.br"
-            className="inline-flex items-center justify-center rounded-full border border-white/30 hover:bg-white/10 transition-colors text-white font-semibold px-8 py-4"
+            className="inline-flex items-center justify-center rounded-lg border border-white/30 hover:bg-white/10 transition-colors text-white font-semibold px-8 py-4"
           >
             Enviar e-mail
           </a>

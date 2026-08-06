@@ -32,7 +32,7 @@ export default function Localizacao() {
           href={`https://www.google.com/maps/search/?api=1&query=${MAPS_QUERY}`}
           target="_blank"
           rel="noreferrer"
-          className="mt-6 inline-flex items-center justify-center rounded-full bg-slate-900 hover:bg-slate-800 transition-colors text-white font-semibold px-8 py-4"
+          className="mt-6 inline-flex items-center justify-center rounded-lg bg-slate-900 hover:bg-slate-800 transition-colors text-white font-semibold px-8 py-4"
         >
           Ver no Google Maps
         </a>

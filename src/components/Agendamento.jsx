@@ -50,7 +50,7 @@ export default function Agendamento() {
 
             <a
               href="#contato"
-              className="mt-6 inline-flex items-center justify-center rounded-full bg-slate-900 hover:bg-slate-800 transition-colors text-white font-semibold px-8 py-4"
+              className="mt-6 inline-flex items-center justify-center rounded-lg bg-slate-900 hover:bg-slate-800 transition-colors text-white font-semibold px-8 py-4"
             >
               Agendar atendimento!
             </a>
